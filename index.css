@@ -1,0 +1,86 @@
+
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#señalar_logo{
+    width: 800px;
+}
+h1{
+    color: red;
+    -webkit-text-stroke: 2px white;
+    text-shadow: 0px 0px 10px white;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+}
+
+h2{
+    color: white;
+    font-size: 70px;
+    font-family: monospace;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+#btn_increment{
+
+   width: 280px;
+   height: 50px;
+   background-color: red;
+   color: #ffffff;
+   -webkit-text-stroke: 1.3px rgb(0, 0, 0);
+   text-shadow: 0px 0px 20px rgb(19, 19, 19);
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   border-radius: 15px;
+   
+   border: 2px solid white;
+   
+
+}
+
+#btn_save{
+    
+   width: 280px;
+   height: 50px;
+   background-color: rgb(34, 206, 28);
+   color: #ffffff;
+   -webkit-text-stroke: 1.3px rgb(0, 0, 0);
+   text-shadow: 0px 0px 20px rgb(19, 19, 19);
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   border-radius: 15px;
+   margin-top: 30px;
+   border: 2px solid white;
+   
+
+}
+#save-el{
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+#person{
+    width: 200px;
+}
+
